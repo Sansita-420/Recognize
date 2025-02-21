@@ -4,7 +4,9 @@ url_*.txt は、実験に用いた画像のURLが記載されている。
 url*.txt を用いて、save_*.m でその画像をローカルに保存した。
 
 課題1(taiyaki, dorayaki  | spiderman, deadpool)
+   
     make_list.m :画像パスのリストを作成
+
         カラーヒストグラムと最近傍分類
             make_db.m           :カラーヒストグラムのdatabase作成
             categorize_db.m:    :カラーヒストグラムで最近傍分類
@@ -25,6 +27,7 @@ url*.txt を用いて、save_*.m でその画像をローカルに保存した�
 
 
 課題2(R2D2  | takoyaki)
+
     make_list2.m            :画像パスのリストを作成
     Feature_DCNN_layer.m    :DCNN特徴量の作成する関数(課題1でも使用)
     Reranking_DCNN.m        :SVMスコアの大きい順にソートする関数
